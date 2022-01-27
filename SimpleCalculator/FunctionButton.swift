@@ -16,12 +16,12 @@ class FunctionButton : UIButton {
         // 自动布局，frame 设置 zero，等同(0,0,0,0)
         super.init(frame: CGRect.zero)
         // 为按钮添加边框
-        self.layer.borderWidth = 1
+        self.layer.borderWidth = 0.3
         self.layer.borderColor = UIColor.gray.cgColor
         // 设置字体颜色
         self.setTitleColor(UIColor.gray, for: .normal)
-        self.titleLabel?.font = UIFont.systemFont(ofSize: 26)
-        self.setTitleColor(UIColor.black, for: .highlighted)
+        self.titleLabel?.font = UIFont.boldSystemFont(ofSize: 28)
+        self.setTitleColor(UIColor.red, for: .highlighted)
         
     }
     

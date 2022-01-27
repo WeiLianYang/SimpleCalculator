@@ -19,6 +19,7 @@
 		6813AB78279ED987005FAD8C /* SimpleCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6813AB77279ED987005FAD8C /* SimpleCalculatorUITestsLaunchTests.swift */; };
 		68F9261C27A17D3C009CE7B2 /* FunctionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F9261B27A17D3C009CE7B2 /* FunctionButton.swift */; };
 		68F9261E27A17F80009CE7B2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 68F9261D27A17F80009CE7B2 /* Podfile */; };
+		68F9262427A18A6B009CE7B2 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F9262327A18A6B009CE7B2 /* BoardView.swift */; };
 		E183DA51A55F4F806CCD527C /* Pods_SimpleCalculator.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F219556604CA46057ECA2D2C /* Pods_SimpleCalculator.framework */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		6813AB77279ED987005FAD8C /* SimpleCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		68F9261B27A17D3C009CE7B2 /* FunctionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionButton.swift; sourceTree = "<group>"; };
 		68F9261D27A17F80009CE7B2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		68F9262327A18A6B009CE7B2 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		F219556604CA46057ECA2D2C /* Pods_SimpleCalculator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleCalculator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				68F9261B27A17D3C009CE7B2 /* FunctionButton.swift */,
+				68F9262327A18A6B009CE7B2 /* BoardView.swift */,
 			);
 			name = widget;
 			sourceTree = "<group>";
@@ -346,6 +349,7 @@
 			files = (
 				6813AB56279ED985005FAD8C /* ViewController.swift in Sources */,
 				6813AB5C279ED985005FAD8C /* SimpleCalculator.xcdatamodeld in Sources */,
+				68F9262427A18A6B009CE7B2 /* BoardView.swift in Sources */,
 				68F9261C27A17D3C009CE7B2 /* FunctionButton.swift in Sources */,
 				6813AB52279ED985005FAD8C /* AppDelegate.swift in Sources */,
 				6813AB54279ED985005FAD8C /* SceneDelegate.swift in Sources */,
