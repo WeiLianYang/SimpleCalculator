@@ -11,6 +11,8 @@ import SnapKit
 
 class BoardView: UIView {
     
+    var delegate: BoardButtonClickDelegate?
+    
     let dataArray = ["0", ".", "%", "=",
                     "1", "2", "3", "+",
                     "4", "5", "6", "-",
@@ -73,6 +75,7 @@ class BoardView: UIView {
     
     @objc func onButtonClick(button: FunctionButton) {
         print(button.title(for: .normal) ?? "title is nil")
+        delegate?.onBoardButtonClick(content: button.currentTitle ?? "")
     }
     
     /*
@@ -83,4 +86,9 @@ class BoardView: UIView {
     }
     */
 
+}
+
+// 面板按钮点击协议
+protocol BoardButtonClickDelegate {
+    func onBoardButtonClick(content: String)
 }
