@@ -19,6 +19,7 @@
 		6813AB78279ED987005FAD8C /* SimpleCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6813AB77279ED987005FAD8C /* SimpleCalculatorUITestsLaunchTests.swift */; };
 		685BDA7327A430E500193D3E /* CalculatorCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 685BDA7227A430E500193D3E /* CalculatorCore.swift */; };
 		68CD2FFD27A2D017002D2761 /* ScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68CD2FFC27A2D017002D2761 /* ScreenView.swift */; };
+		68EC7BBE27A531D1005BE315 /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 68EC7BBD27A531D1005BE315 /* demo.gif */; };
 		68F9261C27A17D3C009CE7B2 /* FunctionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F9261B27A17D3C009CE7B2 /* FunctionButton.swift */; };
 		68F9261E27A17F80009CE7B2 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 68F9261D27A17F80009CE7B2 /* Podfile */; };
 		68F9262427A18A6B009CE7B2 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68F9262327A18A6B009CE7B2 /* BoardView.swift */; };
@@ -61,6 +62,7 @@
 		6813AB77279ED987005FAD8C /* SimpleCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		685BDA7227A430E500193D3E /* CalculatorCore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorCore.swift; sourceTree = "<group>"; };
 		68CD2FFC27A2D017002D2761 /* ScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenView.swift; sourceTree = "<group>"; };
+		68EC7BBD27A531D1005BE315 /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		68F9261B27A17D3C009CE7B2 /* FunctionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionButton.swift; sourceTree = "<group>"; };
 		68F9261D27A17F80009CE7B2 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		68F9262327A18A6B009CE7B2 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
@@ -121,14 +123,15 @@
 			children = (
 				68F9261827A17CB8009CE7B2 /* widget */,
 				6813AB51279ED985005FAD8C /* AppDelegate.swift */,
+				685BDA7227A430E500193D3E /* CalculatorCore.swift */,
 				6813AB53279ED985005FAD8C /* SceneDelegate.swift */,
 				6813AB55279ED985005FAD8C /* ViewController.swift */,
 				6813AB57279ED985005FAD8C /* Main.storyboard */,
 				6813AB5D279ED987005FAD8C /* Assets.xcassets */,
 				6813AB5F279ED987005FAD8C /* LaunchScreen.storyboard */,
+				68EC7BBD27A531D1005BE315 /* demo.gif */,
 				6813AB62279ED987005FAD8C /* Info.plist */,
 				6813AB5A279ED985005FAD8C /* SimpleCalculator.xcdatamodeld */,
-				685BDA7227A430E500193D3E /* CalculatorCore.swift */,
 			);
 			path = SimpleCalculator;
 			sourceTree = "<group>";
@@ -285,6 +288,7 @@
 			files = (
 				6813AB61279ED987005FAD8C /* LaunchScreen.storyboard in Resources */,
 				6813AB5E279ED987005FAD8C /* Assets.xcassets in Resources */,
+				68EC7BBE27A531D1005BE315 /* demo.gif in Resources */,
 				68F9261E27A17F80009CE7B2 /* Podfile in Resources */,
 				6813AB59279ED985005FAD8C /* Main.storyboard in Resources */,
 			);
